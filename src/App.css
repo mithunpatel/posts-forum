@@ -1,0 +1,37 @@
+.main-section {
+  padding: 10px 20px;
+}
+
+div {
+  justify-content: center;
+  text-align: center;
+}
+.main-page-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+.main-page-container-list {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;;
+}
+.searched-item{
+  border: 1px solid #282c34;
+}
+.searched-item h4 {
+  margin: 0;
+}
+.searched-item h6 {
+  margin: 0;
+}
+.post-comments {
+  border: 1px solid #282c34;
+  text-align: start;
+}
+.post-comments h3 {
+  margin: 0;
+}
